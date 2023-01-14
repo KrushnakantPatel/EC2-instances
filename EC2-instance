@@ -11,7 +11,7 @@ provider="aws" {			##This is the provider(environment)
 resource "aws_instance""my_ec2_instance" {		## Define the resource
   ami	="ami-53552"				## This are the required  parameters			
   instance_type="t2.micro"			## This are the required parameters
-  key_name = "myKryPair"			## This are the required parameters
+  key_name = "myKeyPair"			## This are the required parameters
   tags {
    Name="Production-EC2-instance
   }
